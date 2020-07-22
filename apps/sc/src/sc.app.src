@@ -1,0 +1,17 @@
+{application, sc,
+	[{description, "Test project Simple Cache"},
+		{vsn, "0.1.0"},
+		{registered, []},
+		{mod, { sc_app, []}},
+		{applications,
+			[
+				kernel,
+				stdlib
+			]},
+		{env,[]},
+		{modules, []},
+
+		{maintainers, []},
+		{licenses, ["Apache 2.0"]},
+		{links, []}
+	]}.
